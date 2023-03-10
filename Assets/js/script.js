@@ -3,7 +3,7 @@ const pageNumber = document.querySelector("[data-pageNumber]");
 const sortButton = document.getElementById("sortButton");
 const previousButton = document.querySelector("[data-previous]");
 const nextButton = document.querySelector("[data-next]");
-const form = document.querySelector("[data-pesquisa]");
+const form = document.querySelector("[data-search]");
 
 let sortType = "numeric";
 let pageindex = 1;
