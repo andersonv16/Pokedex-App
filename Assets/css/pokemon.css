@@ -20,16 +20,17 @@
    --fairy-color: #EE99AC;
 
 }
-body{
-    background: var(--grass-color);
-    
-}
+
 header{
     font-size: 32px;
     font-weight: 700;
+    text-align: center;
     color: #fff;
     padding: 20px;
     height: 180px;
+}
+header a{
+    margin-right: 30px;
 }
 header .pokemon-number{
     font-size: 20px;
@@ -99,13 +100,20 @@ margin: 0 auto;
    }
    .container-about {
     border: 1px dashed black;
-    height: 60px;
+    height: 50px;
     text-align: center;
     font-size: 12px;
     display: grid;
     align-items: end;
   }
-  
+  .container-about li{
+   
+    list-style: none;
+    font-weight: 700;
+ 
+
+  }
+
   .pokemon-weight {
     background-image: url('../imagens/weight-hanging-solid.svg');
     background-repeat: no-repeat;
