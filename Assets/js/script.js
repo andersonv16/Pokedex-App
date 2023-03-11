@@ -88,7 +88,7 @@ async function getPokemon(pageindex) {
 
 
 function createCard(indice, sprites, pokemonName){
-    const pokemonCard = document.createElement("div");
+    const pokemonCard = document.createElement("a");
 
     pokemonCard.classList.add("container-pokemon");
     pokemonCard.innerHTML = `
@@ -96,8 +96,10 @@ function createCard(indice, sprites, pokemonName){
         <img class="pokemon-image" data-image src="${sprites["official-artwork"].front_default}" width="90px" alt="Imagem do Pokemon ${pokemonName}">
         <p class="nome-pokemon" data-name>${pokemonName}</p>
       `;
-
     containerPokemon.appendChild(pokemonCard);
+    pokemonCard.addEventListener("click", () => {
+        location.href = `/pokemon.html?id=${indice}`;
+      });
 }
 
 async function createdEvent () {
