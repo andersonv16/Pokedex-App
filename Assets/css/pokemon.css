@@ -4,6 +4,7 @@
    --normal-color: #A8A878;
    --fire-color: #F08030;
    --water-color: #6890F0;
+   --ice-color: #68f0de;
    --grass-color: #78C850;
    --electric-color: #F8D030;
    --fighting-color: #C03028;
@@ -71,7 +72,7 @@ section{
     display: flex;
     margin-top: 20px;
     text-align: center;
-    margin: 30px auto;
+    margin: 30px auto 10px auto;
  
 }
 .type li{
@@ -142,4 +143,67 @@ margin: 0 auto;
     margin: 20px auto;
 
    }
- 
+   
+   .stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .stat-name {
+    font-weight: bold;
+    text-align: center;
+    width: 50px;
+  }
+  
+  .stat-value {
+    margin-left: 10px;
+    margin-right: auto;
+    text-align: right;
+    width: 30px;
+  }
+  
+  .stat-bar {
+    background-color: grey;
+    height: 5px;
+  
+   
+  }
+  
+  .stat-bar-value {
+    background-color: var(--color);
+    height: 5px;
+  }
+  
+      
+  
+  #loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .spinner {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  

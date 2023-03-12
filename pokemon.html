@@ -13,6 +13,10 @@
     <title>Pokemon - Stats</title>
 </head>
 <body>
+    <div id="loading">
+        <div class="spinner"></div>
+      </div>
+      
     <header>
         <div class="pokemon-name">
             <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
@@ -23,7 +27,7 @@
     <section>
         <div class="image-container">
         <button class="btn-prev"><i class="fa-solid fa-chevron-left"></i></button>
-        <img data-image src="" width="180px" alt="">
+        <img data-image src="" width="180px" height="180px" alt="">
         <button class="btn-next"><i class="fa-solid fa-chevron-right"></i></button>
     </div>
     <div class="type" data-type>
@@ -45,16 +49,15 @@
 </div>
 <div class="container-text">
     <p class="text-pokemon" data-text>
-        Lorem ipsum dolor sit amet, consectetur adiplscing elit, nunc iaculis  
-        Lorem ipsum dolor sit amet, consectetur adiplscing elit, nunc iaculis 
-        Lorem ipsum dolor sit amet, consectetur adiplscing elit, nunc iaculis 
+      
     </p>
 </div>
 <div class="pokemon-about ">
-    <h2>Base Stats</h2>
-    <div class="container-stats" data-stats>
-
-    </div>
+    <div class="pokemon-stats">
+        <h2>Base Stats</h2>
+        <div class="stats-container" data-stats></div>
+      </div>
+</div>
 </div>
     </section>
 

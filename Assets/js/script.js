@@ -122,4 +122,5 @@ async function createdEvent () {
       input.value = '';
     }
   }
+
   getPokemon(pageindex);
