@@ -3,8 +3,8 @@ Este é um projeto de uma Pokedex, onde é possível buscar por pokemons atravé
 <h2>
 Visualização
 </h2>
-![tela inicial do app](https://github.com/andersonv16/Pokedex-App/blob/master/Assets/imagens/tela-principal.png)
-![tela de visualização do pokemon](https://github.com/andersonv16/Pokedex-App/blob/master/Assets/imagens/tela-pokemon.png)<br>
+![tela inicial do app](https://github.com/andersonv16/Pokedex-App/blob/e23d839f5eef30dfd7a5a3211ed3bf6484395714/Assets/imagens/tela-principal.png)
+![tela de visualização do pokemon](https://github.com/andersonv16/Pokedex-App/blob/c71fe46398314105f5172b3fcc4d12189ad79b05/Assets/imagens/tela-pokemon.png)<br>
 
 Baseado no design do figma a seguir:
 
