@@ -52,7 +52,7 @@ header .pokemon-name{
 .image-container{
     position: absolute;
     top: 70px;
-    right: 8%;
+    right: 5%;
     display: flex;
 }
 .image-container button{
