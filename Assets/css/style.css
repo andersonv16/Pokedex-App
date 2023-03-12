@@ -89,7 +89,7 @@ section{
     .pokemon-image{
         position: absolute;
         top: 30px;
-        left: 10%;
+        left: 12%;
         z-index: 1;
     }
     .nome-pokemon{
