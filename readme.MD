@@ -3,7 +3,8 @@ Este é um projeto de uma Pokedex, onde é possível buscar por pokemons atravé
 <h2>
 Visualização
 </h2>
-![visualização das telas do app](https://github.com/andersonv16/Pokedex-App/blob/master/Assets/imagens/pokemon.gif)
+<br>
+![](https://github.com/andersonv16/Pokedex-App/blob/master/Assets/imagens/pokemon.gif)
 
 <br>
 Baseado no design do figma a seguir:
