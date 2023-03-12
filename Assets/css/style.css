@@ -181,7 +181,7 @@ section{
 
 
  .container-pokemon{
-
+  padding: 20px;
   height: 240px;
   margin: 10px;
 
@@ -225,9 +225,7 @@ section{
    
    
 }
-.container-pokemon{
-  padding: 20px;
-}
+
 .container-pokemon:hover{
 background-color: #e4405b;
 opacity: 0,5;
