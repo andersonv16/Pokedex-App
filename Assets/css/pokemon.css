@@ -281,5 +281,11 @@ margin: 0 auto;
  
   height: 10px;
 }
+body{
+  margin: 0 auto;
+  overflow-x: hidden;
+ 
+}
+
   }
   
