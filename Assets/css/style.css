@@ -22,18 +22,22 @@ header{
   flex-direction: row;
   justify-content: start;
   align-items: center;
+
   
 }
 .pokemon-logo img, span{
     margin: 5px;
 }
-
+.logo{
+  display: none;
+}
 .pokemon-search input{
     padding: 10px;
     width: 90%;
     border: none;
     border-radius: 20px;
     box-shadow: 0px 3px 12px 3px rgba(0, 0, 0, 0.2);
+   
 }
 form{
     width: 90%;  
@@ -143,3 +147,102 @@ section{
     
   }
   
+@media screen and (min-width: 720px) {
+  
+  header{
+    font-size: 80px;
+    padding: 20px;
+    
+}
+.pokemon-logo img{
+  width: 120px;
+}
+
+.pokemon-logo img, span{
+  margin: 20px;
+}
+.pokemon-search input{
+  padding: 20px;
+  margin-left: 10px;
+  width: 90%;
+  font-size: 32px;
+}
+.pokemon-search input::placeholder {
+  padding-left: 60px;
+  
+ }
+ .pokemon-search button{
+   
+  padding: 20px;
+  width: 80px; 
+  font-size: 30px;
+  height: 80px;
+ }
+
+
+ .container-pokemon{
+
+  height: 240px;
+  margin: 10px;
+
+  }
+  .pokemon-image{
+      top: 30px;
+      left: 50px;
+      width: 180px;
+     
+  }
+  .nome-pokemon{
+      
+      top: 170px;
+      font-size: 28px;
+    
+  }
+.pokemon-number{
+  font-size: 26px;
+}
+.pagination button{
+  padding: 20px;
+  font-size: 26px;
+}
+.page-number{
+  
+   font-size: 26px;
+    margin-top: 20px;
+  }
+  .logo-m{
+    display: none;
+  }
+  .logo{
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  *{
+    overflow-y: auto;
+  }
+  .pokemon-image{
+    top: 30px;
+    left: 120px;
+    width: 180px;
+   
+}
+.container-pokemon:hover{
+background-color: #e4405b;
+opacity: 0,5;
+
+  }
+  body::-webkit-scrollbar {
+    width: 12px;               
+  }
+  body::-webkit-scrollbar-track {
+    background: rgba(255, 166, 0, 0.459);   
+  
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);    
+    border-radius: 20px;    
+    border: 3px solid rgba(255, 166, 0, 0.514);  
+  }
+}

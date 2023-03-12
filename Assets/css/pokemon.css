@@ -38,6 +38,11 @@ header .pokemon-number{
     margin-left: 30px;
    
 }
+header .pokemon-name{
+ text-transform: capitalize;
+ 
+}
+
 .svg-inline--fa.fa-arrow-left{
     color: #fff;
     margin-right: 5px;
@@ -206,4 +211,75 @@ margin: 0 auto;
     100% { transform: rotate(360deg); }
   }
   
+  
+  @media  screen and (min-width: 720px) {
+    
+    .pokemon-number {
+      font-size: 24px;
+    }
+    .image-container img {
+      width: 200px;
+      height: 200px;
+    }
+    .container-stats {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    .stat {
+      flex-basis: calc(33.33% - 20px);
+    }
+    
+
+    .image-container{
+      position: absolute;
+      top: 80px;
+      left: 43%;
+      display: block;
+  }
+  .image-container button.btn-prev{
+      position: absolute;
+      font-size: 32px;
+      top: 30px;
+      right: 100%;
+   }
+   .image-container button.btn-next{
+    position: absolute;
+    font-size: 32px;
+    top: 30px;
+    
+ }
+ .pokemon-weight {
+  font-size: 16px;
+  background-position-x: 150px;
+}
+
+.pokemon-height {
+  font-size: 16px;
+  background-position-x: 150px;
+
+}
+.stat-name {
+
+  width: 100px;
+}
+
+.stat-value {
+ 
+  width: 60px;
+}
+.stat-bar {
+
+  height: 10px;
+  flex-basis: 80%;
+ 
+}
+
+.stat-bar-value {
+ 
+ 
+  height: 10px;
+}
+  }
   
