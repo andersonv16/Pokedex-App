@@ -1,6 +1,11 @@
 <h1>Pokedex</h1>
 Este é um projeto de uma Pokedex, onde é possível buscar por pokemons através do nome ou número, além de poder visualizar os detalhes do pokemon em uma página individual.
 <h2>
+Visualização
+</h2>
+https://www.figma.com/file/qHoGDc0ywo1CAfHHMKeyx2/Pokédex-(Community)?node-id=1031%3A1736&t=Z4BZDFjKwBtWmkC1-0
+
+<h2>
 Cores utilizadas
 </h2>
    --primary-color: #DC0A2D;
