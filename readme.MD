@@ -4,8 +4,7 @@ Este é um projeto de uma Pokedex, onde é possível buscar por pokemons atravé
 Visualização
 </h2>
 <br>
-![](https://github.com/andersonv16/Pokedex-App/blob/master/Assets/imagens/pokemon.gif)
-![](https://github.com/andersonv16/Review/blob/master/assets/img/Home%20-%20Reviews-Mobile.gif)
+![gif](https://github.com/andersonv16/Pokedex-App/blob/master/Assets/imagens/pokemon.gif)
 
 <br>
 Baseado no design do figma a seguir:
