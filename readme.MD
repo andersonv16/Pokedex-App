@@ -14,26 +14,26 @@ https://www.figma.com/file/qHoGDc0ywo1CAfHHMKeyx2/Pokédex-(Community)?node-id=1
 <h2>
 Cores utilizadas
 </h2>
-   --primary-color: #DC0A2D;<br>
-   --Background:   #EFEFEF;<br>
-   --normal-color: #A8A878;<br>
-   --fire-color: #F08030;<br>
-   --water-color: #6890F0;<br>
-   --ice-color: #68f0de;<br>
-   --grass-color: #78C850;<br>
-   --electric-color: #F8D030;<br>
-   --fighting-color: #C03028;<br>
-   --poison-color: #A040A0;<br>
-   --ground-color: #E0C068;<br>
-   --flying-color: #A890F0;<br>
-   --psychic-color: #F85888;<br>
-   --bug-color: #A8B820;<br>
-   --rock-color: #B8A038;<br>
-   --ghost-color: #705898;<br>
-   --dragon-color: #7038F8;<br>
-   --dark-color: #705848;<br>
-   --steel-color: #B8B8D0;<br>
-   --fairy-color: #EE99AC;
+   --primary-color: `#DC0A2D`;<br>
+   --Background:   `#EFEFEF`;<br>
+   --normal-color: `#A8A878`;<br>
+   --fire-color: `#F08030`;<br>
+   --water-color: `#6890F0`;<br>
+   --ice-color: `#68f0de`;<br>
+   --grass-color: `#78C850`;<br>
+   --electric-color: `#F8D030`;<br>
+   --fighting-color: `#C03028`;<br>
+   --poison-color: `#A040A0`;<br>
+   --ground-color: `#E0C068`;<br>
+   --flying-color: `#A890F0`;<br>
+   --psychic-color: `#F85888`;<br>
+   --bug-color: `#A8B820`;<br>
+   --rock-color: `#B8A038`;<br>
+   --ghost-color: `#705898`;<br>
+   --dragon-color: `#7038F8`;<br>
+   --dark-color: `#705848`;<br>
+   --steel-color: `#B8B8D0`;<br>
+   --fairy-color: `#EE99AC`;
 
 <h2>
 Tecnologias utilizadas
