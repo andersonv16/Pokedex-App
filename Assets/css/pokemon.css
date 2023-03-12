@@ -52,7 +52,7 @@ header .pokemon-name{
 .image-container{
     position: absolute;
     top: 70px;
-    right: -25px;
+    right: -3%;
     display: flex;
 }
 .image-container button{
@@ -173,7 +173,7 @@ margin: 0 auto;
   .stat-bar {
     background-color: grey;
     height: 5px;
-  
+    flex-basis: 70%;
    
   }
   
