@@ -5,7 +5,7 @@ Visualização
 </h2>
 ![visualização das telas do app](https://github.com/andersonv16/Pokedex-App/blob/master/Assets/imagens/pokemon.gif)
 
-
+<br>
 Baseado no design do figma a seguir:
 
 https://www.figma.com/file/qHoGDc0ywo1CAfHHMKeyx2/Pokédex-(Community)?node-id=1031%3A1736&t=Z4BZDFjKwBtWmkC1-0
