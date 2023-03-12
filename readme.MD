@@ -27,8 +27,8 @@ Cores utilizadas
 <h2>
 Tecnologias utilizadas
 </h2>
-HTML
-CSS
+HTML, 
+CSS, 
 JavaScript
 <h3>
 Como rodar o projeto
