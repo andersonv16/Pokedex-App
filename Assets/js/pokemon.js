@@ -167,7 +167,7 @@ const statAbbreviations = {
         const statBarValueElement = document.createElement('div');
         statBarValueElement.className = 'stat-bar-value';
         statBarValueElement.style.backgroundColor = `var(--${pokemonData.types[0].type.name}-color)`;
-        statBarValueElement.style.width = `calc(${statValue}% - 33%)`;
+        statBarValueElement.style.width = `calc(${statValue}% - 10%)`;
         statBarElement.appendChild(statBarValueElement);
     
         statsContainer.appendChild(statElement);
